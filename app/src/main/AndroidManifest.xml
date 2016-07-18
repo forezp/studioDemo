@@ -68,6 +68,11 @@
 
         <activity android:name=".libraryTest.LibTestActivity"
             android:screenOrientation="portrait"/>
+
+        <activity android:name=".acacheTest.AcacheActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".uitest.UiTestActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -36,7 +36,9 @@ public class FrescoActivity extends Activity {
         sdv2=(SimpleDraweeView)findViewById(R.id.sdv2);
         sdv2.setImageURI(Uri.parse("http://img.taopic.com/uploads/allimg/130501/240451-13050106450911.jpg"));
         sdv3=(SimpleDraweeView)findViewById(R.id.sdv3);
-        Uri uri1=Uri.parse("http://pic.joke01.com/uppic/13-05/30/30215236.gif");
+
+      //  Uri uri1=Uri.parse("http://pic.joke01.com/uppic/13-05/30/30215236.gif");
+        Uri uri1=Uri.parse("http://7xjy8m.com2.z0.glb.qiniucdn.com/20160513_1154420.jpg");
         ImageRequest request = ImageRequestBuilder.newBuilderWithSource(uri1)
 
 
